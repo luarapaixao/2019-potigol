@@ -1,0 +1,14 @@
+escreva "jogo advinhe o número mágico"
+escreva "este jogo você tenta adivinhar o número mágico"
+
+escreva "qual o seu nome?"
+nome=leia_texto
+escreva"bem vindo, {nome}"
+
+magico=aleatório(1,100)
+
+escreva "qual o seu palpite entre 1 e 100?"
+numero=leia_texto
+
+escreva "{nome}, seu número foi {numero}"
+escreva "o meu número foi {magic}"
